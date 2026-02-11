@@ -70,7 +70,7 @@ The tool monitors and analyzes:
 - Process IDs and names
 - Overall system resource utilization
 
-## 🤖 AI Analysis
+## AI Analysis
 
 The Gemini AI model analyzes your system data and provides:
 - Performance bottleneck identification
