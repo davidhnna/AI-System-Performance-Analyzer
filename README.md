@@ -2,21 +2,21 @@
 
 A Python-based tool that leverages Google's Gemini AI to analyze your system's top 5 processes and provide intelligent recommendations to optimize performance.
 
-## 🚀 Features
+## Features
 
 - **Real-time Process Monitoring**: Captures and analyzes the top 5 most resource-intensive processes on your system
 - **AI-Powered Analysis**: Uses Google's Gemini AI to provide intelligent insights about system performance
 - **Actionable Recommendations**: Receives specific instructions on how to improve system performance
 - **Easy to Use**: Simple command-line interface for quick performance checks
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this tool, ensure you have the following installed:
 
 - Python 3.7 or higher
 - pip (Python package installer)
 
-## 🔧 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -48,7 +48,7 @@ pip install -r requirements.txt
    export GEMINI_API_KEY=your_api_key_here
    ```
 
-## 🎯 Usage
+## Usage
 
 Run the system monitor:
 
@@ -62,7 +62,7 @@ The tool will:
 3. Send the data to Gemini AI for analysis
 4. Display performance recommendations and optimization instructions
 
-## 📊 What Gets Analyzed
+## What Gets Analyzed
 
 The tool monitors and analyzes:
 - CPU usage per process
@@ -78,20 +78,20 @@ The Gemini AI model analyzes your system data and provides:
 - System configuration recommendations
 - Best practices for resource management
 
-## 🛠️ Dependencies
+## Dependencies
 
 - `psutil` - For system and process monitoring
 - `google-generativeai` - For Gemini AI integration
 - Other standard Python libraries
 
-## ⚙️ Configuration
+## Configuration
 
 You can customize the analysis by modifying `sysmonitor.py`:
 - Change the number of processes to analyze
 - Adjust monitoring intervals
 - Customize AI prompts for specific use cases
 
-## 📝 Example Output
+## Example Output
 
 ```
 Analyzing top 5 system processes...
@@ -108,52 +108,13 @@ AI Recommendations:
 - Overall system memory usage is at 78%. Consider upgrading RAM...
 ```
 
-## 🔒 Privacy & Security
+## Privacy & Security
 
 - All system data is processed locally and sent only to Google's Gemini API
 - No personal data is stored or shared beyond what's necessary for AI analysis
 - API keys should be kept secure and never committed to version control
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👤 Author
-
-**davidhnna**
-- GitHub: [@davidhnna](https://github.com/davidhnna)
-
-## 🙏 Acknowledgments
-
-- Google Gemini AI for providing the AI analysis capabilities
-- The `psutil` library for system monitoring functionality
-- The open-source community for inspiration and support
-
-## 📮 Support
-
-If you encounter any issues or have questions:
-- Open an issue on [GitHub Issues](https://github.com/davidhnna/AI-System-Performance-Analyzer/issues)
-- Check existing issues for solutions to common problems
-
-## 🗺️ Roadmap
-
-Future enhancements planned:
-- [ ] Web-based dashboard for visual monitoring
-- [ ] Historical performance tracking
-- [ ] Support for multiple AI models
-- [ ] Automated performance optimization
-- [ ] Cross-platform compatibility improvements
-- [ ] Export reports in various formats (PDF, JSON, CSV)
-
----
-
-**Note**: This tool requires an active internet connection to communicate with the Gemini AI API. Make sure your API key has sufficient quota for analysis requests.
+This project is open source 
