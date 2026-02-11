@@ -115,6 +115,6 @@ AI Recommendations:
 - API keys should be kept secure and never committed to version control
 
 
-## 📄 License
+## License
 
 This project is open source 
